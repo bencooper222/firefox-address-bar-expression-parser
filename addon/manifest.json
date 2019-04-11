@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Address bar math",
+  "author": "Benjamin Cooper",
+  "homepage": "https://benc.io",
+  "version": "1.0",
+  "applications": {
+    "gecko": {
+      "id": "address-bar-math@benc.io"
+    }
+  },
+  "description": "Do super fast math in the address bar with support for all sorts of functions!",
+  "omnibox": { "keyword": "m@" },
+  "background": {
+    "scripts": ["index.js"]
+  }
+}

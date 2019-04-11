@@ -1,3 +1,13 @@
-import * as expr from 'expression-eval';
+// import * as expr from './exprParse';
+import { eval as exprEval } from 'mathjs';
 
-console.log(expr.eval(expr.parse('sqrt(3)')));
+browser.omnibox.setDefaultSuggestion({
+  description: `Do most mathematical computations.`,
+});
+
+const doMath = expression => exprEval(expression);
+
+browser.omnibox.onInputChanged.addListener((text, suggest) => {
+  const data = doMath(text);
+  suggest([{ description: data, content: data }]);
+});

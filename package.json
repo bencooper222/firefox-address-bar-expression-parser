@@ -5,15 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel index.js",
-    "build": "parcel build index.js"
+    "build": "webpack"
   },
   "author": "Benjamin Cooper",
   "license": "SEE LICENSE IN LICENSE",
   "devDependencies": {
-    "parcel-bundler": "^1.12.3"
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
   },
   "dependencies": {
-    "expression-eval": "^2.0.0"
-  }
+    "mathjs": "^5.9.0"
+  },
+  "sideEffects": false
 }

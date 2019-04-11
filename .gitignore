@@ -12,5 +12,5 @@ Cargo.lock
 # obvi
 node_modules
 
-# parcel
-.cache
+# ignore build
+addon.zip
