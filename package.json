@@ -12,5 +12,8 @@
   "license": "SEE LICENSE IN LICENSE",
   "devDependencies": {
     "parcel-bundler": "^1.12.3"
+  },
+  "dependencies": {
+    "expression-eval": "^2.0.0"
   }
 }

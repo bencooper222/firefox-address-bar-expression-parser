@@ -1,11 +1,3 @@
-import { add } from './crate/main.rs';
-console.log('lel');
-try {
-  console.log(add);
-  console.log(add(2, 3));
-} catch (err) {
-  console.error(err);
-}
+import * as expr from 'expression-eval';
 
-console.log('hey');
-document.body.style.border = '5px solid blue';
+console.log(expr.eval(expr.parse('sqrt(3)')));
