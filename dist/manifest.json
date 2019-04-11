@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Math in the address bar",
+  "version": "1.0",
+
+  "description": "Do super fast math in the address bar",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://*/*", "http://*/*"],
+      "js": ["index.js"]
+    }
+  ]
+}

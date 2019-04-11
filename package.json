@@ -1,0 +1,16 @@
+{
+  "name": "firefox-address-bar-expression-parser",
+  "version": "1.0.0",
+  "description": "Parse and solve math in your firefox address bar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.js",
+    "build": "parcel build index.js"
+  },
+  "author": "Benjamin Cooper",
+  "license": "SEE LICENSE IN LICENSE",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
