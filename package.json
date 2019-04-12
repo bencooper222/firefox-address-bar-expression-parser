@@ -8,7 +8,7 @@
     "build": "webpack"
   },
   "author": "Benjamin Cooper",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "SEE LICENSE IN LICENSE.MD",
   "devDependencies": {
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0"
