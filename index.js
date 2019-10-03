@@ -1,4 +1,3 @@
-// import * as expr from './exprParse';
 import { eval as exprEval } from 'mathjs';
 
 browser.omnibox.setDefaultSuggestion({
