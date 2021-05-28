@@ -6,10 +6,8 @@ browser.omnibox.setDefaultSuggestion({
 
 const cb = (text, suggest) => {
   const data = evaluate(text);
-  console.log(text, data);
-  suggest([{ description: data, content: data }]);
+  suggest([{ description: String(data), content: String(data) }]);
 }
 
 browser.omnibox.onInputStarted.addListener(cb);
-
 browser.omnibox.onInputChanged.addListener(cb);

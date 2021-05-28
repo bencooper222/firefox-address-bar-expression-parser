@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack && web-ext build --source-dir addon/"
+    "build": "webpack && web-ext build --source-dir addon/ --overwrite-dest"
   },
   "author": "Benjamin Cooper",
   "license": "SEE LICENSE IN LICENSE.MD",
