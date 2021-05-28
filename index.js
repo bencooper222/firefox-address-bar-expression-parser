@@ -1,12 +1,11 @@
-import { eval as exprEval } from 'mathjs';
+import { evaluate } from 'mathjs';
 
 browser.omnibox.setDefaultSuggestion({
   description: `Do most mathematical computations.`,
 });
 
-const doMath = expression => exprEval(expression);
 
 browser.omnibox.onInputChanged.addListener((text, suggest) => {
-  const data = doMath(text);
+  const data = evaluate(text);
   suggest([{ description: data, content: data }]);
 });

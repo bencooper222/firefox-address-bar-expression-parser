@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
+  "type": "module",
   "author": "Benjamin Cooper",
   "license": "SEE LICENSE IN LICENSE.MD",
   "devDependencies": {
