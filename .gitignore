@@ -12,5 +12,6 @@ Cargo.lock
 # obvi
 node_modules
 
-# ignore build
-addon.*
+
+# build directory
+web-ext-artifacts/

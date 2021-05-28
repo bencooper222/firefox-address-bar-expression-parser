@@ -2,7 +2,6 @@
   "manifest_version": 2,
   "name": "Address bar math",
   "author": "Benjamin Cooper",
-  "homepage": "https://benc.io",
   "version": "1.1",
   "applications": {
     "gecko": {
