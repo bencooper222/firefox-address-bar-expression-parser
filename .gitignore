@@ -13,4 +13,4 @@ Cargo.lock
 node_modules
 
 # ignore build
-addon.zip
+addon.*
