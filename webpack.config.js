@@ -1,8 +1,15 @@
 const path = require("path");
-const ClosurePlugin = require('closure-webpack-plugin');
+const ClosurePlugin = require("closure-webpack-plugin");
 
 module.exports = {
-  optimization: { minimizer: [new ClosurePlugin({ mode: "STANDARD" }, {})] },
+  optimization: {
+    minimizer: [
+      new ClosurePlugin(
+        { mode: "AGGRESSIVE_BUNDLE" },
+        { externs: ["./index.extern.js"] }
+      ),
+    ],
+  },
   entry: {
     addon: "./index.js",
   },
