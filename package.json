@@ -10,6 +10,8 @@
   "author": "Benjamin Cooper",
   "license": "SEE LICENSE IN LICENSE.MD",
   "devDependencies": {
+    "closure-webpack-plugin": "^2.5.0",
+    "google-closure-compiler": "^20210907.0.0",
     "web-ext": "^6.1.0",
     "webpack": "^5",
     "webpack-cli": "^4"
