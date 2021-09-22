@@ -7,3 +7,4 @@ const browser = {};
 
 browser.omnibox.onInputStarted.addListener = function (cb) {};
 browser.omnibox.onInputChanged.addListener = function (cb) {};
+browser.omnibox.setDefaultSuggestion = function(obj) {}
