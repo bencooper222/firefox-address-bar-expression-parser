@@ -5,8 +5,7 @@ module.exports = {
   optimization: {
     minimizer: [
       new ClosurePlugin(
-        { mode: "AGGRESSIVE_BUNDLE" },
-        { externs: ["./index.extern.js"] }
+        { mode: "STANDARD" },
       ),
     ],
   },
