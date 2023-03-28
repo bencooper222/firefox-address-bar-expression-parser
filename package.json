@@ -17,8 +17,5 @@
   "dependencies": {
     "mathjs": "^9"
   },
-  "sideEffects": false,
-  "volta": {
-    "node": "14.17.0"
-  }
+  "sideEffects": false
 }
