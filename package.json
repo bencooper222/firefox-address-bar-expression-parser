@@ -1,6 +1,6 @@
 {
   "name": "firefox-address-bar-expression-parser",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Parse and solve math in your firefox address bar",
   "main": "index.js",
   "scripts": {
